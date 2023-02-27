@@ -1,6 +1,8 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 import App from '../App';
+import axios from 'jest-mock-axios';
+
 
 test('renders App component without crashing', () => {
   render(<App />)
